@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    &__burger {
+        display: none;
+        @media (max-width: $xs) {
+            display: block;
+        }
+    }
+    
+}

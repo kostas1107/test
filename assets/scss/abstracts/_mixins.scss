@@ -1,0 +1,13 @@
+@mixin button {
+    color: #ffffff;
+    background: #9b9bca;
+    border-radius: 10px;
+    padding: 16px 67px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: $poppins;
+    font-size: rem(18);
+    font-weight: 500;
+    line-height: rem(27);
+    letter-spacing: 0em;
+}

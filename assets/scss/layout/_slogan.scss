@@ -1,0 +1,42 @@
+.slogan {
+    padding-top: 200px;
+    max-width: 50%;
+    @media (max-width: $xs) {
+        padding-top: 100px;
+        max-width: 100%;
+    }
+    &__heading {
+        font-family: $serif;
+        font-weight: 400;
+        font-size: rem(56);
+        line-height: rem(56);
+        color: $hero-secondary;
+        @media (max-width: $xs) {
+            text-align: center;
+            font-size: rem(32);
+            line-height: rem(32);
+        }
+    }
+    &__paragraph {
+        font-family: $poppins;
+        font-weight: 400;
+        font-size: rem(18);
+        line-height: rem(27);
+        color: $hero-secondary;
+        padding-bottom: 30px;
+        @media (max-width: $xs) {
+            text-align: center;
+            margin-top: 45px;
+            padding-bottom: 100px;
+        }
+    }
+    &__button {
+        @include button;
+    }
+    &__button-wrapper {
+        @media (max-width: $xs) {
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
